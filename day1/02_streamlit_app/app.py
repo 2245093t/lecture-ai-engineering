@@ -1,4 +1,5 @@
 # app.py
+# ui.pyを変更し、時刻帯をJSTに設定しました。
 import streamlit as st
 import ui                   # UIモジュール
 import llm                  # LLMモジュール
@@ -9,7 +10,7 @@ import torch
 from transformers import pipeline
 from config import MODEL_NAME
 from huggingface_hub import HfFolder
-# テスト
+
 # --- アプリケーション設定 ---
 st.set_page_config(page_title="Gemma Chatbot", layout="wide")
 

@@ -6,7 +6,7 @@ import great_expectations as gx
 from sklearn.datasets import fetch_openml
 import warnings
 
-# 警告を抑制
+# 警告を抑制a
 warnings.filterwarnings("ignore")
 
 # テスト用データパスを定義

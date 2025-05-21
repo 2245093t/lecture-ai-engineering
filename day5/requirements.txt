@@ -5,4 +5,3 @@ pandas
 pytest
 great_expectations
 black
-numpy

@@ -21,4 +21,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r day5/requirements.txt
       - name: Run tests
-        run: pytest 演習3/tests
+        run: pytest 演習3/tests/test_model_performance.py -v

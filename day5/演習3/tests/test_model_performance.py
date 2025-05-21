@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 def test_model_accuracy():
-    # モデルとテストデータのパスは適宜修正a
+    # モデルとテストデータのパスは適宜修正b
     model = joblib.load("../../models/latest_model.pkl")
     X_test = np.load("../../data/X_test.npy")
     y_test = np.load("../../data/y_test.npy")

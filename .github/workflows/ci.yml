@@ -3,10 +3,10 @@ name: Model Test
 on:
   push:
     paths:
-      - '演習3/tests/**'
-      - 'models/**'
-      - 'data/**'
-      - 'requirements.txt'
+      - 'day5/requirements.txt'
+      - 'day5/演習3/tests/**'
+      - 'day5/models/**'
+      - 'day5/data/**'
   pull_request:
 
 jobs:
